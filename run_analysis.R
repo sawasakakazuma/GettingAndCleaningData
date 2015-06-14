@@ -1,18 +1,17 @@
 library(dplyr)
-#library(data.table)
+
 # 1. Merges the training and the test sets to create one data set.
 trainData <- read.table("UCI HAR Dataset/train/X_train.txt")
-#trainData <- fread("UCI HAR Dataset/train/")
 testData <- read.table("UCI HAR Dataset/test/X_test.txt")
 data <- rbind(trainData, testData)
 
 # 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 features <- read.table("UCI HAR Dataset/features.txt")
 names(data) <- features$V2
-indices <- sort(union(grep("mean", names(data)), grep("std", names(data))))
+indices <- sort(grep("(mean|std)\\(\\)", names(data)))
 extractedData <- data[, indices]
 
-# 3. Uses descriptive activity names to name the activities in the data set
+# 3. Uses descriptive activity names to name the activities in the data set.
 trainActivity <- read.table("UCI HAR Dataset/train/y_train.txt")
 testActivity <- read.table("UCI HAR Dataset/test/y_test.txt")
 extractedData$ActivityID <- rbind(trainActivity, testActivity)$V1
