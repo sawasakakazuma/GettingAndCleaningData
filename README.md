@@ -29,3 +29,54 @@ Then it calculates the average value of each column for each activity and each s
 Finally, it writes the tidy data set (`summary`) to a file using `write.table` function.
 
 ## Code book
+| Variable name | Description |
+| --- | --- |
+| ActivityID | Identifier of the activities |
+| ActivityLabel | A descriptive name of the activities |
+| Subject | Identifier of the subjects |
+| tBodyAcc-mean()-X | Mean value of the X-axis body accellaration |
+| tBodyAcc-mean()-Y | Mean value of the Y-axis body accellaration |
+| tBodyAcc-mean()-Z | Mean value of the Z-axis body accellaration |
+| tBodyAcc-std()-X | Standard deviation of the X-axis body accellaration |
+| tBodyAcc-std()-Y | Standard deviation of the Y-axis body accellaration |
+| tBodyAcc-std()-Z | Standard deviation of the Z-axis body accellaration |
+| tGravityAcc-mean()-X | Mean value of the X-axis gravity accellaration |
+| tGravityAcc-mean()-Y | Mean value of the Y-axis gravity accellaration |
+| tGravityAcc-mean()-Z | Mean value of the Z-axis gravity accellaration |
+| tGravityAcc-std()-X | Standard deviation of the X-axis gravity accellaration |
+| tGravityAcc-std()-Y | Standard deviation of the Y-axis gravity accellaration |
+| tGravityAcc-std()-Z | Standard deviation of the Z-axis gravity accellaration |
+| tBodyAccJerk-mean()-X | Mean value of the X-axis Jerk signals of body accellaration |
+| tBodyAccJerk-mean()-Y | Mean value of the Y-axis Jerk signals of body accellaration |
+| tBodyAccJerk-mean()-Z | Mean value of the Z-axis Jerk signals of body accellaration |
+| tBodyAccJerk-std()-X | Standard deviation of the X-axis Jerk signals of body accellaration |
+| tBodyAccJerk-std()-Y | Standard deviation of the Y-axis Jerk signals of body accellaration |
+| tBodyAccJerk-std()-Z | Standard deviation of the Z-axis Jerk signals of body accellaration |
+| tBodyGyro-mean()-X | Mean value of the X-axis body velocity |
+| tBodyGyro-mean()-Y | Mean value of the Y-axis body velocity |
+| tBodyGyro-mean()-Z | Mean value of the Z-axis body velocity |
+| tBodyGyro-std()-X | Standard deviation of the X-axis body velocity |
+| tBodyGyro-std()-Y | Standard deviation of the Y-axis body velocity |
+| tBodyGyro-std()-Z | Standard deviation of the Z-axis body velocity |
+| tBodyGyroJerk-mean()-X | Mean value of the X-axis Jerk signals of body velocity |
+| tBodyGyroJerk-mean()-Y | Mean value of the Y-axis Jerk signals of body velocity |
+| tBodyGyroJerk-mean()-Z | Mean value of the Z-axis Jerk signals of body velocity |
+| tBodyGyroJerk-std()-X | Standard deviation of the X-axis Jerk signals of body velocity |
+| tBodyGyroJerk-std()-Y | Standard deviation of the Y-axis Jerk signals of body velocity |
+| tBodyGyroJerk-std()-Z | Standard deviation of the Z-axis Jerk signals of body velocity |
+| tBodyAccMag-mean() | Mean value of the magnitude of body accellaration |
+| tBodyAccMag-std() | Standard deviation of the magnitude of body accellaration |
+| tGravityAccMag-mean() | Mean value of the magnitude of gravity accellaration |
+| tGravityAccMag-std() | Standard deviation of the magnitude of gravity accellaration |
+| tBodyAccJerkMag-mean() | Mean value of the magnitude of Jerk signals of body accellaration |
+| tBodyAccJerkMag-std() | Standard deviation of the magnitude of Jerk signals of body accellaration |
+| tBodyGyroMag-mean() | Mean value of the magnitude of body velocity |
+| tBodyGyroMag-std() | Standard deviarion of the magnitude of body velocity |
+| tBodyGyroJerkMag-mean() | Mean value of the magnitude of Jerk signals of body velocity |
+| tBodyGyroJerkMag-std() | Standard deviarion of the magnitude of Jerk signals of body velocity |
+| fBodyAcc-mean()-X | Mean value of the frequency of X-axis body accellaration |
+| fBodyAcc-mean()-Y | Mean value of the frequency of Y-axis body accellaration |
+| fBodyAcc-mean()-Z | Mean value of the frequency of Z-axis body accellaration |
+| fBodyAcc-std()-X | Standard deviarion of the frequency of X-axis body accellaration |
+| fBodyAcc-std()-Y | Standard deviarion of the frequency of Y-axis body accellaration |
+| fBodyAcc-std()-Z | Standard deviarion of the frequency of Z-axis body accellaration |
