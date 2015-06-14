@@ -80,3 +80,23 @@ Finally, it writes the tidy data set (`summary`) to a file using `write.table` f
 | fBodyAcc-std()-X | Standard deviarion of the frequency of X-axis body accellaration |
 | fBodyAcc-std()-Y | Standard deviarion of the frequency of Y-axis body accellaration |
 | fBodyAcc-std()-Z | Standard deviarion of the frequency of Z-axis body accellaration |
+| fBodyAccJerk-mean()-X | Mean value of the frequency of X-axis Jerk signals of body accellaration |
+| fBodyAccJerk-mean()-Y | Mean value of the frequency of Y-axis Jerk signals of body accellaration |
+| fBodyAccJerk-mean()-Z | Mean value of the frequency of Z-axis Jerk signals of body accellaration |
+| fBodyAccJerk-std()-X | Standard deviation of the frequency of X-axis Jerk signals of body accellaration |
+| fBodyAccJerk-std()-Y | Standard deviation of the frequency of Y-axis Jerk signals of body accellaration |
+| fBodyAccJerk-std()-Z | Standard deviation of the frequency of Z-axis Jerk signals of body accellaration |
+| fBodyGyro-mean()-X | Mean value of the frequency of X-axis body velocity |
+| fBodyGyro-mean()-Y | Mean value of the frequency of Y-axis body velocity |
+| fBodyGyro-mean()-Z | Mean value of the frequency of Z-axis body velocity |
+| fBodyGyro-std()-X | Standard deviation of the frequency of X-axis body velocity |
+| fBodyGyro-std()-Y | Standard deviation of the frequency of Y-axis body velocity |
+| fBodyGyro-std()-Z | Standard deviation of the frequency of Z-axis body velocity |
+| fBodyAccMag-mean() | Mean value of the frequency of the magnitude of body accellaration |
+| fBodyAccMag-std() | Standard deviation of the frequency of the magnitude of body accellaration |
+| fBodyBodyAccJerkMag-mean() | Mean value of the frequency of the magnitude of Jerk signals of body accellaration |
+| fBodyBodyAccJerkMag-std() | Standard deviation of the frequency of the magnitude of Jerk signals of body accellaration |
+| fBodyBodyGyroMag-mean() | Mean value of the frequency of the magnitude of body velocity |
+| fBodyBodyGyroMag-std() | Standard deviation of the frequency of the magnitude of body velocity |
+| fBodyBodyGyroJerkMag-mean() | Mean value of the frequency of the magnitude of Jerk signals of body velocity |
+| fBodyBodyGyroJerkMag-std() | Standard deviation of the frequency of the magnitude of Jerk signals of body velocity |
